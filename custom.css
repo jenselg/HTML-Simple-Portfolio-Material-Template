@@ -1,0 +1,70 @@
+/* Background */
+
+#background {
+  z-index: -99;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #455A64;
+}
+
+/* Overrides */
+
+body {
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+}
+
+.navbar {
+  border-radius: 0;
+  border-style: none;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+nav {
+  position: fixed !important;
+  width: 100%;
+  z-index: 99;
+}
+
+nav a {
+  color: white !important;
+}
+
+nav a:hover {
+  color: #E64A19 !important;
+}
+
+.img-responsive {
+  margin-bottom: 15px;
+  border: 1px solid;
+}
+
+/* Content */
+
+#profile {
+  display: table;
+  height: 100vh;
+  color: white;
+}
+
+#profile-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#projects {
+  display: table;
+  height: 100vh;
+  color: white;
+}
+
+#projects-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
